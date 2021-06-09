@@ -1,0 +1,136 @@
+device: cuda:0
+do_fc_batch_norm: true  # added manually
+seed: 3
+J_n_mixtures: 2
+activation: elu
+batch_size: 150
+config_args_path: ''
+cov_type_p_z_c: full
+data_init: true
+dataset: fast_3dshapes
+dataset_on_gpu: true
+dec_backbone_dims:
+- 500
+- 500
+dec_backbone_n_hidden:
+- 1
+- 1
+dec_rung_dims:
+- 500
+- 2000
+dec_rung_n_hidden:
+- 1
+- 1
+decode_layer_dims:
+- 2000
+- 500
+do_progressive_training: true
+do_test_during_training: true
+do_vis_cluster_means: false
+do_vis_conf_mat: true
+do_vis_examples_per_cluster: true
+do_vis_latent_code_traversal: false
+do_vis_n_samples_per_cluster: true
+do_vis_pi: true
+do_vis_recon: true
+do_vis_sample_generations_per_cluster: true
+do_vis_test: true
+do_vis_train: true
+enc_backbone_dims:
+- 500
+- 2000
+enc_backbone_n_hidden:
+- 1
+- 1
+enc_rung_dims:
+- -1
+- -1
+enc_rung_n_hidden:
+- -1
+- -1
+encode_layer_dims:
+- 500
+- 2000
+eval_batch_size: 150
+facet_to_fix_pi_p_c: all
+factors_label_list:
+- shape
+- floor_hue
+factors_variation_dict:
+  floor_hue:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  object_hue:
+  - 6
+  orientation:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  scale:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  shape:
+  - 0
+  - 1
+  - 2
+  - 3
+  wall_hue:
+  - 5
+fix_pi_p_c: true
+fixed_var_init: 0.01
+gamma_kl_c_pretrain: 0
+gamma_kl_z_pretrain: 0
+init_lr: 0.0003
+init_off_diag_cov_p_z_c: false
+init_type_p_z_c: gmm
+lr_decay: 1
+min_lr: null
+model_type: conv_vlae
+n_batches_fade_in: 2000
+n_clusters_j_list:
+- 60
+- 20
+n_epochs: 301
+n_epochs_per_progressive_step:
+- 101
+- 301
+n_examples_per_cluster: 16
+n_recons_per_cluster: 4
+n_sample_generations_per_cluster: 16
+n_test_batches: -1
+save_model: true
+sigma_multiplier_p_x_z: 0.6
+temp_sample_generation: 0.3
+threedshapes_train_frac: 0.8
+user: user1
+vis_every_n_epochs: 50
+wandb_mode: online
+z_j_dim_list:
+- 20
+- 2

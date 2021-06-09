@@ -1,0 +1,404 @@
+{
+    "seed": {
+        "desc": null,
+        "value": 1
+    },
+    "user": {
+        "desc": null,
+        "value": "user2"
+    },
+    "_wandb": {
+        "desc": null,
+        "value": {
+            "framework": "torch",
+            "cli_version": "0.10.12",
+            "is_jupyter_run": false,
+            "python_version": "3.7.7",
+            "is_kaggle_kernel": false
+        }
+    },
+    "beta_c": {
+        "desc": null,
+        "value": 1
+    },
+    "beta_z": {
+        "desc": null,
+        "value": 1
+    },
+    "device": {
+        "desc": null,
+        "value": "cuda:1"
+    },
+    "min_lr": {
+        "desc": null,
+        "value": null
+    },
+    "dataset": {
+        "desc": null,
+        "value": "fast_svhn"
+    },
+    "init_lr": {
+        "desc": null,
+        "value": 0.0005
+    },
+    "lambda_c": {
+        "desc": null,
+        "value": 1
+    },
+    "lambda_z": {
+        "desc": null,
+        "value": 1
+    },
+    "lr_decay": {
+        "desc": null,
+        "value": 1
+    },
+    "n_epochs": {
+        "desc": null,
+        "value": 301
+    },
+    "n_stacks": {
+        "desc": null,
+        "value": 4
+    },
+    "pretrain": {
+        "desc": null,
+        "value": ""
+    },
+    "data_init": {
+        "desc": null,
+        "value": true
+    },
+    "do_vis_pi": {
+        "desc": null,
+        "value": true
+    },
+    "free_bits": {
+        "desc": null,
+        "value": false
+    },
+    "activation": {
+        "desc": null,
+        "value": "elu"
+    },
+    "batch_size": {
+        "desc": null,
+        "value": 150
+    },
+    "fix_pi_p_c": {
+        "desc": null,
+        "value": true
+    },
+    "model_type": {
+        "desc": null,
+        "value": "conv_vlae"
+    },
+    "save_model": {
+        "desc": null,
+        "value": true
+    },
+    "wandb_mode": {
+        "desc": null,
+        "value": "online"
+    },
+    "do_vis_test": {
+        "desc": null,
+        "value": true
+    },
+    "J_n_mixtures": {
+        "desc": null,
+        "value": 2
+    },
+    "do_vis_recon": {
+        "desc": null,
+        "value": true
+    },
+    "do_vis_train": {
+        "desc": null,
+        "value": true
+    },
+    "z_j_dim_list": {
+        "desc": null,
+        "value": [
+            22,
+            7
+        ]
+    },
+    "dec_rung_dims": {
+        "desc": null,
+        "value": [
+            500,
+            2000
+        ]
+    },
+    "enc_rung_dims": {
+        "desc": null,
+        "value": [
+            -1,
+            -1
+        ]
+    },
+    "cov_type_p_z_c": {
+        "desc": null,
+        "value": "full"
+    },
+    "dataset_on_gpu": {
+        "desc": null,
+        "value": true
+    },
+    "fixed_var_init": {
+        "desc": null,
+        "value": 0.01
+    },
+    "n_test_batches": {
+        "desc": null,
+        "value": -1
+    },
+    "do_vis_conf_mat": {
+        "desc": null,
+        "value": true
+    },
+    "eval_batch_size": {
+        "desc": null,
+        "value": 1000
+    },
+    "init_type_p_z_c": {
+        "desc": null,
+        "value": "gmm"
+    },
+    "config_args_path": {
+        "desc": null,
+        "value": ""
+    },
+    "dec_backbone_dims": {
+        "desc": null,
+        "value": [
+            500,
+            500
+        ]
+    },
+    "dec_rung_n_hidden": {
+        "desc": null,
+        "value": [
+            1,
+            1
+        ]
+    },
+    "decode_layer_dims": {
+        "desc": null,
+        "value": [
+            2000,
+            500
+        ]
+    },
+    "enc_backbone_dims": {
+        "desc": null,
+        "value": [
+            500,
+            2000
+        ]
+    },
+    "enc_rung_n_hidden": {
+        "desc": null,
+        "value": [
+            -1,
+            -1
+        ]
+    },
+    "encode_layer_dims": {
+        "desc": null,
+        "value": [
+            500,
+            2000
+        ]
+    },
+    "n_batches_fade_in": {
+        "desc": null,
+        "value": 15000
+    },
+    "n_clusters_j_list": {
+        "desc": null,
+        "value": [
+            200,
+            50
+        ]
+    },
+    "out_channels_list": {
+        "desc": null,
+        "value": [
+            32,
+            64
+        ]
+    },
+    "factors_label_list": {
+        "desc": null,
+        "value": [
+            "shape"
+        ]
+    },
+    "vis_every_n_epochs": {
+        "desc": null,
+        "value": 50
+    },
+    "channels_multiplier": {
+        "desc": null,
+        "value": 32
+    },
+    "facet_to_fix_pi_p_c": {
+        "desc": null,
+        "value": "all"
+    },
+    "gamma_kl_c_pretrain": {
+        "desc": null,
+        "value": 0
+    },
+    "gamma_kl_z_pretrain": {
+        "desc": null,
+        "value": 0
+    },
+    "do_vis_cluster_means": {
+        "desc": null,
+        "value": false
+    },
+    "n_recons_per_cluster": {
+        "desc": null,
+        "value": 4
+    },
+    "non_dim_change_layer": {
+        "desc": null,
+        "value": true
+    },
+    "dec_backbone_n_hidden": {
+        "desc": null,
+        "value": [
+            1,
+            1
+        ]
+    },
+    "enc_backbone_n_hidden": {
+        "desc": null,
+        "value": [
+            1,
+            1
+        ]
+    },
+    "update_lr_every_epoch": {
+        "desc": null,
+        "value": 10
+    },
+    "factors_variation_dict": {
+        "desc": null,
+        "value": {
+            "scale": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "shape": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "wall_hue": [
+                5
+            ],
+            "floor_hue": [
+                0
+            ],
+            "object_hue": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "orientation": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        }
+    },
+    "n_examples_per_cluster": {
+        "desc": null,
+        "value": 10
+    },
+    "sigma_multiplier_p_x_z": {
+        "desc": null,
+        "value": 0.3
+    },
+    "do_progressive_training": {
+        "desc": null,
+        "value": true
+    },
+    "do_test_during_training": {
+        "desc": null,
+        "value": true
+    },
+    "init_off_diag_cov_p_z_c": {
+        "desc": null,
+        "value": false
+    },
+    "threedshapes_train_frac": {
+        "desc": null,
+        "value": 0.8
+    },
+    "do_vis_examples_per_cluster": {
+        "desc": null,
+        "value": true
+    },
+    "do_vis_latent_code_traversal": {
+        "desc": null,
+        "value": false
+    },
+    "do_vis_n_samples_per_cluster": {
+        "desc": null,
+        "value": true
+    },
+    "n_epochs_per_progressive_step": {
+        "desc": null,
+        "value": [
+            101,
+            301
+        ]
+    },
+    "pretrain_with_standard_gaussian": {
+        "desc": null,
+        "value": false
+    },
+    "freeze_priors_during_pretraining": {
+        "desc": null,
+        "value": false
+    },
+    "n_sample_generations_per_cluster": {
+        "desc": null,
+        "value": 10
+    },
+    "do_vis_sample_generations_per_cluster": {
+        "desc": null,
+        "value": true
+    }
+}
