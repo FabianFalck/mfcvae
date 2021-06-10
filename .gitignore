@@ -1,12 +1,11 @@
 # added in addition to template
 .idea/
 
-# to push to GitHub
-# data/
-# new_trained_models/
-# pretrained_models/
-# results/
-# wandb/
+data/
+new_trained_models/
+pretrained_models/
+results/
+wandb/
 
 
 # Byte-compiled / optimized / DLL files
