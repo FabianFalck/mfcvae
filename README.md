@@ -307,6 +307,13 @@ Please leave an issue if you have any questions.
 
 ## Citation
 
-TODO 
+@misc{falck2021multifacet,
+      title={Multi-Facet Clustering Variational Autoencoders}, 
+      author={Fabian Falck and Haoting Zhang and Matthew Willetts and George Nicholson and Christopher Yau and Christopher C Holmes},
+      year={2021},
+      eprint={2106.05241},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+} 
 
 
