@@ -2,7 +2,7 @@
 
 ![Intuition figure](graphics/intuition.jpg)
 
-This repository is the official implementation of **[Multi-Facet Clustering Variational Autoencoders (MFCVAE)](TODO)**. 
+This repository is the official implementation of **[Multi-Facet Clustering Variational Autoencoders (MFCVAE)](https://arxiv.org/abs/2106.05241)**. 
 
 MFCVAE is a principled, probabilistic clustering model which finds multiple partitions of the data
 simultaneously through its multiple Mixtures-of-Gaussians (MoG) prior.
@@ -16,7 +16,7 @@ perform generative classification, and generate diverse, synthetic samples.
 The MFCVAE model is implemented with the *PyTorch Distributions* package, 
 the training script and other network related operations are using PyTorch. 
 
-[Click here for the paper](TODO).
+[Click here for the paper](https://arxiv.org/abs/2106.05241).
 
 ## Setup
 
@@ -76,8 +76,8 @@ and put this file into a directory `data/Fast_3DShapes/raw`.
 To visualise and log our experimental results, we use weights&biases (referred to as `wandb`) as a dependency.
 `wandb` is a logger (just like Tensorboard) which stores all content of a run (hyperparameter configs, experimental results, gradients, losses, ...) on a server that can be accessed via a website.
 
-To use `wandb`, one needs to set up an account here: https://wandb.ai/home . 
-Further, one has to create a team with a `team_name` (for academics, creating a team is free, see this link: https://wandb.ai/site/academic) 
+To use `wandb`, one needs to set up an account [here](https://wandb.ai/home). 
+Further, one has to create a team with a `team_name` (for academics, creating a team is free, see [this link](https://wandb.ai/site/academic) 
 and within that team a project with a `project_name`. 
 Your account also comes with a login/API key, which you can find under your account (top-right) when logged in -> 
 settings -> API key. It is a hash of >10 characters. We refer to it as `login_key`. 
