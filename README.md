@@ -16,7 +16,9 @@ perform generative classification, and generate diverse, synthetic samples.
 The MFCVAE model is implemented with the *PyTorch Distributions* package, 
 the training script and other network related operations are using PyTorch. 
 
-[Click here for the paper](https://arxiv.org/abs/2106.05241).
+**[Click here for the paper](https://arxiv.org/abs/2106.05241)**.
+
+**[Click here for training runs reproducing our main results (Weights&Biases)](https://wandb.ai/clustering/mfcvae)**.
 
 ## Setup
 
@@ -154,7 +156,16 @@ We use `wandb` for *logging* the following results and conent (note that many of
 * Unsupervised clustering accuracy, 1) plain, one per facet 2) weighted (by class frequency), one per facet 3) mean and 4) maximum over labels and facets (scalar)
 * Number of clusters with at least one input example assigned, one per facet (scalar) 
 
-## Reproducing main results:
+## Reproducing main results
+
+### Main results on Weights&Biases
+
+The main results in this paper, including the most important figures, 
+were logged using Weights&Biases. We make our final runs that have the exact same
+configurations as reported in our main paper public, and they can be viewed
+under the following link: **[https://wandb.ai/clustering/mfcvae](https://wandb.ai/clustering/mfcvae)**.
+
+It is these 'main results' which we show how to reproduce them in the following.
 
 To reproduce the main results in this paper, we provide 3 ways with increasing computational requirements:
 Reproducing our plots with provided pretrained models, 
