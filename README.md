@@ -292,7 +292,7 @@ To evaluate the pretrained models, we refer to the section *Reproduce results us
 
 We briefly illustrate key results from our experiments: 
 
-### Discovering a multi-facet structure
+### Discovering multi-facet structure
 
 ![Input examples figure](graphics/input_examples.jpg)
 
