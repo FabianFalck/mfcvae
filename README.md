@@ -12,7 +12,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2106.02584-b31b1b.svg)](https://arxiv.org/abs/2106.05241)
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
-[![Pytorch](https://img.shields.io/badge/Pytorch-1.7-red.svg)](https://shields.io/)
+[![Pytorch](https://img.shields.io/badge/PyTorch-1.7-red.svg)](https://shields.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-success)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
